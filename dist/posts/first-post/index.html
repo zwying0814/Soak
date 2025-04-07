@@ -1,0 +1,278 @@
+<!DOCTYPE html><html lang="zh-CN" class="ga"> <head><script>
+        if (localStorage.getItem("theme") === null) {
+            document.documentElement.setAttribute("data-theme", "light");
+        } else
+            document.documentElement.setAttribute(
+                "data-theme",
+                localStorage.getItem("theme")
+            );
+    </script><script type="module">var l={exports:{}},d;function h(){return d||(d=1,function(n,f){function r(){var c=document.querySelector("[data-toggle-theme]"),e=c?c.getAttribute("data-key"):null;(function(t=localStorage.getItem(e||"theme")){localStorage.getItem(e||"theme")&&(document.documentElement.setAttribute("data-theme",t),c&&[...document.querySelectorAll("[data-toggle-theme]")].forEach(a=>{a.classList.add(c.getAttribute("data-act-class"))}))})(),c&&[...document.querySelectorAll("[data-toggle-theme]")].forEach(t=>{t.addEventListener("click",function(){var a=t.getAttribute("data-toggle-theme");if(a){var o=a.split(",");document.documentElement.getAttribute("data-theme")==o[0]?o.length==1?(document.documentElement.removeAttribute("data-theme"),localStorage.removeItem(e||"theme")):(document.documentElement.setAttribute("data-theme",o[1]),localStorage.setItem(e||"theme",o[1])):(document.documentElement.setAttribute("data-theme",o[0]),localStorage.setItem(e||"theme",o[0]))}[...document.querySelectorAll("[data-toggle-theme]")].forEach(i=>{i.classList.toggle(this.getAttribute("data-act-class"))})})})}function m(){var c=document.querySelector("[data-set-theme='']"),e=c?c.getAttribute("data-key"):null;(function(t=localStorage.getItem(e||"theme")){if(t!=null&&t!="")if(localStorage.getItem(e||"theme")&&localStorage.getItem(e||"theme")!=""){document.documentElement.setAttribute("data-theme",t);var a=document.querySelector("[data-set-theme='"+t.toString()+"']");a&&([...document.querySelectorAll("[data-set-theme]")].forEach(o=>{o.classList.remove(o.getAttribute("data-act-class"))}),a.getAttribute("data-act-class")&&a.classList.add(a.getAttribute("data-act-class")))}else{var a=document.querySelector("[data-set-theme='']");a.getAttribute("data-act-class")&&a.classList.add(a.getAttribute("data-act-class"))}})(),[...document.querySelectorAll("[data-set-theme]")].forEach(t=>{t.addEventListener("click",function(){document.documentElement.setAttribute("data-theme",this.getAttribute("data-set-theme")),localStorage.setItem(e||"theme",document.documentElement.getAttribute("data-theme")),[...document.querySelectorAll("[data-set-theme]")].forEach(a=>{a.classList.remove(a.getAttribute("data-act-class"))}),t.getAttribute("data-act-class")&&t.classList.add(t.getAttribute("data-act-class"))})})}function u(){var c=document.querySelector("select[data-choose-theme]"),e=c?c.getAttribute("data-key"):null;(function(t=localStorage.getItem(e||"theme")){if(localStorage.getItem(e||"theme")){document.documentElement.setAttribute("data-theme",t);var a=document.querySelector("select[data-choose-theme] [value='"+t.toString()+"']");a&&[...document.querySelectorAll("select[data-choose-theme] [value='"+t.toString()+"']")].forEach(o=>{o.selected=!0})}})(),c&&[...document.querySelectorAll("select[data-choose-theme]")].forEach(t=>{t.addEventListener("change",function(){document.documentElement.setAttribute("data-theme",this.value),localStorage.setItem(e||"theme",document.documentElement.getAttribute("data-theme")),[...document.querySelectorAll("select[data-choose-theme] [value='"+localStorage.getItem(e||"theme")+"']")].forEach(a=>{a.selected=!0})})})}function s(c=!0){c===!0?document.addEventListener("DOMContentLoaded",function(e){r(),u(),m()}):(r(),u(),m())}n.exports={themeChange:s}}(l)),l.exports}var g=h();g.themeChange();</script><title>赵阿卷 - 多年沉淀带来的惊喜</title><meta charset="UTF-8"><meta name="author" content="赵阿卷"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"><meta name="generator" content="Astro v5.6.1"><link rel="icon" type="image/png" href="/favicon.ico"><link rel="apple-touch-icon-precomposed" href="/favicon.ico"><link href="/fonts/SourceHanSerifCN-Bold/font.css" rel="stylesheet"><link href="/fonts/OPlusSans3-Regular/font.css" rel="stylesheet"><link rel="stylesheet" href="/_astro/_page_.DbFUze94.css"></head> <body> <div class="gt"> <header data-have-img="true" id="navbar" data-hide-navbar-on-scroll="1" class="navbar gq dq dz hw lo mo bl hy at bd ax gi gm fixed" data-astro-transition-persist="astro-y6nrcfobj"> <div class="cu"> <div class="drawer mg cd ek"> <input id="my-drawer" type="checkbox" class="i"> <div class="j"> <label for="my-drawer" class="btn y de k"> <svg width="1em" height="1em" class="dh" data-icon="menu-line">   <symbol id="ai:local:menu-line" viewBox="0 0 24 24"><path fill="currentColor" d="M3 4h18v2H3zm0 7h18v2H3zm0 7h18v2H3z"/></symbol><use href="#ai:local:menu-line"></use>  </svg> </label> </div> <div class="g"> <label for="my-drawer" aria-label="close sidebar" class="h"></label> <div class="menu gq ja ea ee hr"> <div class="cn gb fz hj hk hn" style="height:10rem;background-image:url(/images/bg.jpg)"></div> <div class="cn hr gb flex fh"> <img src="/images/avatar.svg" alt="头像" class="dk"> <div class="by"> <h1 class="io iw im">赵阿卷</h1> <p class="ce cy">热爱代码与生活</p> </div> </div> <ul> <li>  <details open> <summary>默认分类</summary> <ul> <li>  <details open> <summary>默认子分类</summary> <ul> <li> <a href="/category/default-grandchild">默认子子分类</a> </li> </ul> </details>  </li> </ul> </details>  </li><li>  <details open> <summary>电子信息</summary> <ul> <li> <a href="/category/computer">计算机</a> </li><li> <a href="/category/communication">通信</a> </li><li> <a href="/category/electronics">电子</a> </li> </ul> </details>  </li><li> <a href="/category/learning">终身学习</a> </li><li> <a href="/category/works">我的作品</a> </li><li> <a href="/friends">朋友圈</a> </li> </ul> </div> </div> </div> <a class="block" href="/"> <span class="logo-text im in iw iy db"> 赵阿卷 </span> </a> <div class="cv bz hidden mf"> <nav class="hidden lw dq"> <div class="flex fh fr ip iu"> <div class="group/one"> <div class="relative"> <button class="flex fh fu"> <span>默认分类</span> <svg width="1em" height="1em" class="dg eq jq km" data-icon="arrow-down-s-line">   <symbol id="ai:local:arrow-down-s-line" viewBox="0 0 24 24"><path fill="currentColor" d="m12 13.171 4.95-4.95 1.414 1.415L12 16 5.636 9.636 7.05 8.222z"/></symbol><use href="#ai:local:arrow-down-s-line"></use>  </svg> </button> <div class="ie absolute bc ji invisible ey transition jr ev kn kk kl"> <div data-nav-item class="gq gl border ep jk gb iv"> <div class="iv relative group/two"> <button class="kx transition flex fh fi fo el hw ia il ku kv"> <span class="transition kq">默认子分类</span> <svg width="1em" height="1em" viewBox="0 0 24 24" class="dg eq" data-icon="arrow-right-s-line">   <use href="#ai:local:arrow-right-s-line"></use>  </svg> </button> <div class="absolute ij be at ji invisible ey iv transition jr ev ks kp kr"> <div class="eo gq gl border jk gb"> <a href="/category/default-grandchild" class="kx transition group/text flex fh fo el hw ia il ku kv"> <span class="transition ko">默认子子分类</span> </a> </div> </div> </div> </div> </div> </div> </div><div class="group/one"> <div class="relative"> <button class="flex fh fu"> <span>电子信息</span> <svg width="1em" height="1em" viewBox="0 0 24 24" class="dg eq jq km" data-icon="arrow-down-s-line">   <use href="#ai:local:arrow-down-s-line"></use>  </svg> </button> <div class="ie absolute bc ji invisible ey transition jr ev kn kk kl"> <div data-nav-item class="gq gl border ep jk gb iv"> <a href="/category/computer" class="group/text transition kx flex fh fo el hw ia il ku kv"> <span class="transition ko">计算机</span> </a><a href="/category/communication" class="group/text transition kx flex fh fo el hw ia il ku kv"> <span class="transition ko">通信</span> </a><a href="/category/electronics" class="group/text transition kx flex fh fo el hw ia il ku kv"> <span class="transition ko">电子</span> </a> </div> </div> </div> </div><a href="/category/learning" class="la"> 终身学习 </a><a href="/category/works" class="la"> 我的作品 </a><a href="/friends" class="la"> 朋友圈 </a> </div> </nav> </div> </div> <div class="ct fu iu"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><script>window._$HY||(e=>{let t=e=>e&&e.hasAttribute&&(e.hasAttribute("data-hk")?e:t(e.host&&e.host.nodeType?e.host:e.parentNode));["click", "input"].forEach((o=>document.addEventListener(o,(o=>{if(!e.events)return;let s=t(o.composedPath&&o.composedPath()[0]||o.target);s&&!e.completed.has(s)&&e.events.push([s,o])}))))})(_$HY={events:[],completed:new WeakSet,r:{},fe(){}});</script><!--xs--><astro-island uid="1K8SXx" data-solid-render-id="s2" component-url="/_astro/Search.DcE9XoDf.js" component-export="default" renderer-url="/_astro/client.BOVNrbhR.js" props="{}" ssr client="idle" opts="{&quot;name&quot;:&quot;Search&quot;,&quot;value&quot;:true}" await-children><button data-hk=s20000 class="btn de y"><svg class="dh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"></path></svg></button><!--astro:end--></astro-island> <div class="dropdown aq"> <div tabindex="0" role="button" class="btn y de"> <svg width="1em" height="1em" class="dh" data-icon="brush-ai-line">   <symbol id="ai:local:brush-ai-line" viewBox="0 0 24 24"><path fill="currentColor" d="m4.713 7.128-.246.566a.506.506 0 0 1-.934 0l-.246-.566a4.36 4.36 0 0 0-2.22-2.25l-.759-.339a.53.53 0 0 1 0-.963l.717-.319A4.37 4.37 0 0 0 3.276.931L3.53.32a.506.506 0 0 1 .942 0l.253.61a4.37 4.37 0 0 0 2.25 2.327l.718.32a.53.53 0 0 1 0 .962l-.76.338a4.36 4.36 0 0 0-2.219 2.251m10.601 2.405.143.142a5.5 5.5 0 0 1 1.356 5.245 5.505 5.505 0 0 1-5.311 4.078c-2.036 0-4.714-.625-6.973-1.514 1.205-1.414 1.645-2.809 1.8-4.679.037-.451.06-.63.103-.79.793-2.962 3.585-4.61 6.492-3.831.93.25 1.742.724 2.39 1.349m2.914-7.162-4.94 3.842c-3.946-.974-7.73 1.333-8.788 5.284-.102.38-.134.765-.167 1.169-.115 1.394-.247 3.005-3.333 5.33 2.5 1.5 7 3.002 10.502 3.002a7.505 7.505 0 0 0 7.283-9.291l3.84-4.938a1 1 0 0 0-.082-1.321L19.55 2.454a1 1 0 0 0-1.321-.083m-1.333 5.914a8 8 0 0 0-.194-.194l-1.124-1.124 3.182-2.475 1.746 1.746L18.03 9.42z"/></symbol><use href="#ai:local:brush-ai-line"></use>  </svg> </div> <ul tabindex="0" class="s menu gq gb bj hq jl ft"> <li> <button class="btn flex fh fu" data-set-theme="light"> <div data-theme="light" class="gq grid et fc fn gb hp jl"> <div class="gu df gc"></div> <div class="gz df gc"></div> <div class="hb df gc"></div> <div class="gp df gc"></div> </div> <div class="eh truncate">浅色模式</div> </button> </li><li> <button class="btn flex fh fu" data-set-theme="dark"> <div data-theme="dark" class="gq grid et fc fn gb hp jl"> <div class="gu df gc"></div> <div class="gz df gc"></div> <div class="hb df gc"></div> <div class="gp df gc"></div> </div> <div class="eh truncate">暗黑模式</div> </button> </li> </ul> </div> </div> </header> <script>
+    (function () {
+        let lastScrollY = window.scrollY;
+        let isTop = true;
+        let hidden = true;
+
+        function updateHeaderState() {
+            const header = document.getElementById('navbar');
+            const heroBox = document.querySelector('[data-hero-box]')
+            if (!header) return;
+
+            const currentScrollY = window.scrollY;
+
+            // 处理导航栏显隐
+            if (header.dataset.hideNavbarOnScroll === '1') {
+                hidden = currentScrollY <= lastScrollY;
+
+                // 显式设置属性值
+                if (hidden) {
+                    header.setAttribute('data-pinned', 'true');
+                    header.removeAttribute('data-unpinned');
+                } else {
+                    header.setAttribute('data-unpinned', 'true');
+                    header.removeAttribute('data-pinned');
+                }
+            }
+
+            // 处理顶部状态
+            if (heroBox && heroBox.clientHeight) {
+                isTop = currentScrollY <= heroBox.clientHeight - header.clientHeight
+            } else {
+                isTop = currentScrollY <= header.clientHeight;
+            }
+            if (isTop) {
+                header.setAttribute('data-is-top', 'true');
+            } else {
+                header.setAttribute('data-is-top', 'false');
+            }
+
+            lastScrollY = currentScrollY;
+        }
+
+        // 初始化逻辑保持不变
+        document.addEventListener('DOMContentLoaded', () => {
+            window.addEventListener('scroll', updateHeaderState);
+            updateHeaderState();
+        });
+    })();
+</script> <div data-hero-box style="height:30rem;background-image:url(/images/img-1.jpg)" class="hero gv cn flex hk relative in it fd fj fh hn hj"><div class="en bk ik ci hx ic jp gd jg"><div class="im lt in" data-pagefind-body data-pagefind-weight="10" data-pagefind-meta="title">MarkDown文档格式测试</div><div class="cf ip le lu"><div class="flex fh fj fw"><div class="flex fh lv ir"><div class="dg flex fh fj cl gc jg hc"><div class="transform ex"><svg width="1em" height="1em" viewBox="0 0 24 24" data-icon="time">   <use href="#ai:local:time"></use>  </svg></div></div><span>2024年08月14日</span></div><div class="flex fh lv ir"><div class="dg flex fh fj cl gc jg ha"><div class="transform ex"><svg width="1em" height="1em" data-icon="tag">   <symbol id="ai:local:tag" viewBox="0 0 24 24"><path fill="currentColor" d="m10.904 2.1 9.9 1.414 1.414 9.9-9.192 9.192a1 1 0 0 1-1.415 0l-9.9-9.9a1 1 0 0 1 0-1.413zm2.829 8.486a2 2 0 1 0 2.828-2.829 2 2 0 0 0-2.828 2.829"/></symbol><use href="#ai:local:tag"></use>  </svg></div></div><span>计算机</span></div><div class="flex fh lv ir"><div class="dg flex fh fj cl gc jg gw"><div class="transform ex"><svg width="1em" height="1em" data-icon="textCount">   <symbol id="ai:local:textCount" viewBox="0 0 24 24"><path fill="currentColor" d="m13.289 6.213 4.939-3.842a1 1 0 0 1 1.32.083l2.995 2.994a1 1 0 0 1 .082 1.32l-3.84 4.939a7.505 7.505 0 0 1-7.283 9.292C8 20.999 3.5 19.497 1 17.997c3.98-3 3.047-4.81 3.5-6.5 1.058-3.95 4.842-6.258 8.789-5.284M16.7 8.092q.098.095.194.193L18.03 9.42l2.475-3.182-1.746-1.746-3.182 2.475z"/></symbol><use href="#ai:local:textCount"></use>  </svg></div></div><span>1075字</span></div></div></div></div></div> <main id="pjax-container" class="transition-pjax-fade ii lq if">  <div class="flex fq fg fj">  <div class="hr rounded-0 gf gq ml ln mh el mm gm"> <div class="breadcrumbs ip cn me"> <ul> <li> <a> <svg class="et ca dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 21H5C4.44772 21 4 20.5523 4 20V11L1 11L11.3273 1.6115C11.7087 1.26475 12.2913 1.26475 12.6727 1.6115L23 11L20 11V20C20 20.5523 19.5523 21 19 21ZM6 19H18V9.15745L12 3.7029L6 9.15745V19ZM8 15H16V17H8V15Z"></path></svg>
+首页
+</a> </li> <li> <a> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="do ed hm"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path> </svg> 计算机 </a> </li> <li> <span class="db fh fo"> <svg class="et ca dg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0L24 0 24 24 0 24z"></path><path d="M20 2c.552 0 1 .448 1 1v3.757l-2 2V4H5v16h14v-2.758l2-2V21c0 .552-.448 1-1 1H4c-.552 0-1-.448-1-1V3c0-.552.448-1 1-1h16zm1.778 6.808l1.414 1.414L15.414 18l-1.416-.002.002-1.412 7.778-7.778zM13 12v2H8v-2h5zm3-4v2H8V8h8z"></path></g></svg>
+正文
+</span> </li> </ul> </div>  <article class="typography" data-pagefind-body> <h1 id="欢迎使用-arya-在线-markdown-编辑器">欢迎使用 <code>Arya</code> 在线 Markdown 编辑器</h1>
+<p><a href="https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn" rel="noopener noreferrer" target="_blank">Arya</a>，是一款基于 <code>Vue</code>、<code>Vditor</code>，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。</p>
+<hr>
+<h2 id="如何使用">如何使用</h2>
+<p><strong>微注</strong>：清空目前这份默认文档，即处于可使用态。<a href="https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn" rel="noopener noreferrer" target="_blank">Arya</a> 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，<strong>绝不窥测用户个人隐私，可放心使用</strong>；Github 源码：<a href="https://github.com/nicejade/markdown-online-editor" rel="noopener noreferrer" target="_blank">markdown-online-editor</a>，部分功能仍在开发🚧，敬请期待。</p>
+<p>默认为<a href="https://hacpai.com/article/1577370404903?utm_source=github.com" rel="noopener noreferrer" target="_blank">所见即所得</a>模式，可通过 <code>⌘-⇧-M</code>（<code>Ctrl-⇧-M</code>）进行切换；或通过以下方式：</p>
+<ul>
+<li>所见即所得：<code>⌘-⌥-7</code>（<code>Ctrl-alt-7</code>）；</li>
+<li>即时渲染：<code>⌘-⌥-8</code>（<code>Ctrl-alt-8</code>）；</li>
+<li>分屏渲染：<code>⌘-⌥-9</code>（<code>Ctrl-alt-9</code>）；</li>
+</ul>
+<h3 id="ppt-预览">PPT 预览</h3>
+<p>如果您用作 <code>PPT</code> 预览（入口在<code>设置</code>中），需要注意，这里暂还不能支持各种图表的渲染；您可以使用 <code>---</code> 来定义水平方向上幻灯片，用 <code>--</code> 来定义垂直幻灯片；更多设定可以参见 <a href="https://github.com/hakimel/reveal.js#table-of-contents" rel="noopener noreferrer" target="_blank">RevealJs 文档</a>。</p>
+<hr>
+<h2 id="什么是-markdown">什么是 Markdown</h2>
+<p><a href="https://nicelinks.site/tags/Markdown/?utm_source=markdown.lovejade.cn" rel="noopener noreferrer" target="_blank">Markdown</a> 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号，以最小的输入代价，生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong>、<em>斜体</em> 或者<a href="https://vue-cli3.lovejade.cn/explore/" rel="noopener noreferrer" target="_blank">超文本链接</a>，更棒的是，它还可以：</p>
+<hr>
+<h3 id="1-制作待办事宜-todo-列表">1. 制作待办事宜 <code>Todo</code> 列表</h3>
+<ul class="contains-task-list">
+<li class="nc"><input type="checkbox" checked disabled> 🎉 通常 <code>Markdown</code> 解析器自带的基本功能；</li>
+<li class="nc"><input type="checkbox" disabled> 🍀 支持<strong>流程图</strong>、<strong>甘特图</strong>、<strong>时序图</strong>、<strong>任务列表</strong>；</li>
+<li class="nc"><input type="checkbox" checked disabled> 🏁 支持粘贴 HTML 自动转换为 Markdown；</li>
+<li class="nc"><input type="checkbox" disabled> 💃🏻 支持插入原生 Emoji、设置常用表情列表；</li>
+<li class="nc"><input type="checkbox" checked disabled> 🚑 支持编辑内容保存<strong>本地存储</strong>，防止意外丢失；</li>
+<li class="nc"><input type="checkbox" checked disabled> 📝 支持<strong>实时预览</strong>，主窗口大小拖拽，字符计数；</li>
+<li class="nc"><input type="checkbox" checked disabled> 🛠 支持常用快捷键(<strong>Tab</strong>)，及代码块添加复制</li>
+<li class="nc"><input type="checkbox" checked disabled> ✨ 支持<strong>导出</strong>携带样式的 PDF、PNG、JPEG 等；</li>
+<li class="nc"><input type="checkbox" checked disabled> ✨ 升级 Vditor，新增对 <code>echarts</code> 图表的支持；</li>
+<li class="nc"><input type="checkbox" checked disabled> 👏 支持检查并格式化 Markdown 语法，使其专业；</li>
+<li class="nc"><input type="checkbox" checked disabled> 🦑 支持五线谱、及<a href="https://github.com/b3log/vditor/issues/117?utm_source=hacpai.com#issuecomment-526986052" rel="noopener noreferrer" target="_blank">部分站点、视频、音频解析</a>；</li>
+<li class="nc"><input type="checkbox" checked disabled> 🌟 增加对<strong>所见即所得</strong>编辑模式的支持(<code>⌘-⇧-M</code>)；</li>
+</ul>
+<hr>
+<h3 id="2-书写一个质能守恒公式latex">2. 书写一个质能守恒公式[^LaTeX]</h3>
+<mjx-container class="MathJax" jax="SVG" display="true"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="8.699ex" height="2.185ex" role="img" focusable="false" viewBox="0 -883.9 3845.1 965.9" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D438" d="M492 213Q472 213 472 226Q472 230 477 250T482 285Q482 316 461 323T364 330H312Q311 328 277 192T243 52Q243 48 254 48T334 46Q428 46 458 48T518 61Q567 77 599 117T670 248Q680 270 683 272Q690 274 698 274Q718 274 718 261Q613 7 608 2Q605 0 322 0H133Q31 0 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H757Q764 676 764 669Q764 664 751 557T737 447Q735 440 717 440H705Q698 445 698 453L701 476Q704 500 704 528Q704 558 697 578T678 609T643 625T596 632T532 634H485Q397 633 392 631Q388 629 386 622Q385 619 355 499T324 377Q347 376 372 376H398Q464 376 489 391T534 472Q538 488 540 490T557 493Q562 493 565 493T570 492T572 491T574 487T577 483L544 351Q511 218 508 216Q505 213 492 213Z"></path><path id="MJX-1-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path><path id="MJX-1-TEX-I-1D45A" d="M21 287Q22 293 24 303T36 341T56 388T88 425T132 442T175 435T205 417T221 395T229 376L231 369Q231 367 232 367L243 378Q303 442 384 442Q401 442 415 440T441 433T460 423T475 411T485 398T493 385T497 373T500 364T502 357L510 367Q573 442 659 442Q713 442 746 415T780 336Q780 285 742 178T704 50Q705 36 709 31T724 26Q752 26 776 56T815 138Q818 149 821 151T837 153Q857 153 857 145Q857 144 853 130Q845 101 831 73T785 17T716 -10Q669 -10 648 17T627 73Q627 92 663 193T700 345Q700 404 656 404H651Q565 404 506 303L499 291L466 157Q433 26 428 16Q415 -11 385 -11Q372 -11 364 -4T353 8T350 18Q350 29 384 161L420 307Q423 322 423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 181Q151 335 151 342Q154 357 154 369Q154 405 129 405Q107 405 92 377T69 316T57 280Q55 278 41 278H27Q21 284 21 287Z"></path><path id="MJX-1-TEX-I-1D450" d="M34 159Q34 268 120 355T306 442Q362 442 394 418T427 355Q427 326 408 306T360 285Q341 285 330 295T319 325T330 359T352 380T366 386H367Q367 388 361 392T340 400T306 404Q276 404 249 390Q228 381 206 359Q162 315 142 235T121 119Q121 73 147 50Q169 26 205 26H209Q321 26 394 111Q403 121 406 121Q410 121 419 112T429 98T420 83T391 55T346 25T282 0T202 -11Q127 -11 81 37T34 159Z"></path><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D438" xlink:href="#MJX-1-TEX-I-1D438"></use></g><g data-mml-node="mo" transform="translate(1041.8,0)"><use data-c="3D" xlink:href="#MJX-1-TEX-N-3D"></use></g><g data-mml-node="mi" transform="translate(2097.6,0)"><use data-c="1D45A" xlink:href="#MJX-1-TEX-I-1D45A"></use></g><g data-mml-node="msup" transform="translate(2975.6,0)"><g data-mml-node="mi"><use data-c="1D450" xlink:href="#MJX-1-TEX-I-1D450"></use></g><g data-mml-node="mn" transform="translate(466,413) scale(0.707)"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g></g></g></g></svg></mjx-container>
+<p>行内表达式也没有问题: <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="12.507ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 5528 1000" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-2-TEX-I-1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path><path id="MJX-2-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path><path id="MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path><path id="MJX-2-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path><path id="MJX-2-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path><path id="MJX-2-TEX-N-2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path><path id="MJX-2-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D453" xlink:href="#MJX-2-TEX-I-1D453"></use></g><g data-mml-node="mo" transform="translate(550,0)"><use data-c="28" xlink:href="#MJX-2-TEX-N-28"></use></g><g data-mml-node="mi" transform="translate(939,0)"><use data-c="1D465" xlink:href="#MJX-2-TEX-I-1D465"></use></g><g data-mml-node="mo" transform="translate(1511,0)"><use data-c="29" xlink:href="#MJX-2-TEX-N-29"></use></g><g data-mml-node="mo" transform="translate(2177.8,0)"><use data-c="3D" xlink:href="#MJX-2-TEX-N-3D"></use></g><g data-mml-node="mi" transform="translate(3233.6,0)"><use data-c="1D465" xlink:href="#MJX-2-TEX-I-1D465"></use></g><g data-mml-node="mo" transform="translate(4027.8,0)"><use data-c="2B" xlink:href="#MJX-2-TEX-N-2B"></use></g><g data-mml-node="mn" transform="translate(5028,0)"><use data-c="31" xlink:href="#MJX-2-TEX-N-31"></use></g></g></g></svg></mjx-container></p>
+<h3 id="8-绘制表格">8. 绘制表格</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">作品名称</th><th align="left">在线地址</th><th align="center">上线日期</th></tr></thead><tbody><tr><td align="left">倾城之链</td><td align="left"><a href="https://nicelinks.site/??utm_source=markdown.lovejade.cn" rel="noopener noreferrer" target="_blank">https://nicelinks.site</a></td><td align="center">2017-09-20</td></tr><tr><td align="left">晚晴幽草轩</td><td align="left"><a href="https://jeffjade.com/??utm_source=markdown.lovejade.cn" rel="noopener noreferrer" target="_blank">https://jeffjade.com</a></td><td align="center">2014-09-20</td></tr><tr><td align="left">静轩之别苑</td><td align="left"><a href="http://quickapp.lovejade.cn/??utm_source=markdown.lovejade.cn" rel="noopener noreferrer" target="_blank">http://quickapp.lovejade.cn</a></td><td align="center">2019-01-12</td></tr></tbody></table>
+<h3 id="9-更详细语法说明">9. 更详细语法说明</h3>
+<p>想要查看更详细的语法说明，可以参考这份 <a href="https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/markdown-tutorial.md" rel="noopener noreferrer" target="_blank">Markdown 资源列表</a>，涵盖入门至进阶教程，以及资源、平台等信息，能让您对她有更深的认知。</p>
+<p>总而言之，不同于其它<em>所见即所得</em>的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。<strong>Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。</strong> 目前它已经成为世界上最大的技术分享网站 <code>GitHub</code> 和 技术问答网站 <code>StackOverFlow</code> 的御用书写格式，而且越发流行，正在在向各行业渗透。</p>
+<p>最新更新于 2019.08.21</p><style>
+mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line], svg[data-table] > g > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > g > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+  stroke-width: 3;
+}
+</style> </article> <div class="flex fh fv hr gb gs"> <div class="badge ht lz cr jz">
+#&nbsp;Markdown </div><div class="badge ht lz cr ka">
+#&nbsp;Blogging </div><div class="badge ht lz cr jx">
+#&nbsp;Demo </div> </div> <div class="ir flex fd gb ic hw bv gs relative fz"> <div class="bk"> <div class="flex fh fw"> <div class="flex fh"> <div class="dg et flex fh fj cl gc jg hd"> <div class="transform ex"> <svg width="1em" height="1em" data-icon="account-circle-fill">   <symbol id="ai:local:account-circle-fill" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2M6.023 15.416C7.491 17.606 9.695 19 12.16 19s4.669-1.393 6.136-3.584A8.97 8.97 0 0 0 12.16 13a8.97 8.97 0 0 0-6.137 2.416M12 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></symbol><use href="#ai:local:account-circle-fill"></use>  </svg> </div> </div> <span>作者信息：admin</span> </div> <div class="flex fh"> <div class="dg et flex fh fj cl gc jg gy"> <div class="transform ex"> <svg width="1em" height="1em" data-icon="time">   <symbol id="ai:local:time" viewBox="0 0 24 24"><path fill="currentColor" d="M17 3h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1h2v2h6V1h2zM4 9v10h16V9zm2 2h2v2H6zm0 4h2v2H6zm4-4h8v2h-8zm0 4h5v2h-5z"/></symbol><use href="#ai:local:time"></use>  </svg> </div> </div> <span>发表于：2024年08月14日</span> </div> </div> <div class="flex fh bt"> <div class="dg et flex fh fj cl gc jg gx"> <div class="transform ex"> <svg width="1em" height="1em" data-icon="stack-fill">   <symbol id="ai:local:stack-fill" viewBox="0 0 24 24"><path fill="currentColor" d="m20.083 10.5 1.203.721a.5.5 0 0 1 0 .858L12 17.649l-9.285-5.57a.5.5 0 0 1 0-.858l1.202-.721L12 15.35zm0 4.7 1.203.721a.5.5 0 0 1 0 .858l-8.772 5.262a1 1 0 0 1-1.028 0L2.715 16.78a.5.5 0 0 1 0-.858l1.202-.721L12 20.05zM12.515 1.309l8.77 5.262a.5.5 0 0 1 0 .858L12 12.999 2.715 7.43a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0"/></symbol><use href="#ai:local:stack-fill"></use>  </svg> </div> </div> <span>本文标题：</span> <a class="jc kz iw" target="_blank" href="/posts/first-post"> MarkDown文档格式测试 </a> </div> <div class="flex fh"> <div class="dg et flex fh fj cl gc jg hf"> <div class="transform ex"> <svg width="1em" height="1em" data-icon="creative-commons-fill">   <symbol id="ai:local:creative-commons-fill" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2M9 8c-2.208 0-4 1.792-4 4a4.001 4.001 0 0 0 6.828 2.828l-1.414-1.414a2 2 0 1 1 0-2.828l1.415-1.413A4 4 0 0 0 9 8m7 0c-2.208 0-4 1.792-4 4a4.001 4.001 0 0 0 6.828 2.828l-1.414-1.414a2 2 0 1 1 0-2.828l1.415-1.413A4 4 0 0 0 16 8"/></symbol><use href="#ai:local:creative-commons-fill"></use>  </svg> </div> </div> <div>本文采用&nbsp;
+<a target="_blank" class="jc kz iw" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-Hans">
+知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+&nbsp;进行许可
+</div> </div> </div> <svg viewBox="0 0 496 512" class="transition absolute z ew my az ei jd au"> <path d="m245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93c-22.13 0-33.22 14.61-33.22 43.84c0 23.57 9.21 43.84 33.22 43.84c14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98c-22.6 0-73.96-10.32-73.96-77.05c0-58.69 43-77.06 72.63-77.06c30.72-.01 52.7 11.95 65.99 35.86m143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93c-22.14 0-33.22 14.61-33.22 43.84c0 23.55 9.23 43.84 33.22 43.84c14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98c-22.69 0-73.96-9.87-73.96-77.05c0-58.67 42.97-77.06 72.63-77.06c30.71-.01 52.58 11.95 65.56 35.86M247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248c129.93 0 248.44-100.87 248.44-248c0-137.87-106.62-248-248.44-248m.87 450.81c-112.54 0-203.7-93.04-203.7-202.81c0-105.42 85.43-203.27 203.72-203.27c112.53 0 202.82 89.46 202.82 203.26c-.01 121.69-99.68 202.82-202.84 202.82" fill="currentColor"></path> </svg> </div> <div class="flex fj co fs"> <astro-island uid="1ltFvF" data-solid-render-id="s0" component-url="/_astro/Rewards.IY6uD9g3.js" component-export="default" renderer-url="/_astro/client.BOVNrbhR.js" props="{&quot;rewardConfig&quot;:[0,{&quot;icon&quot;:[0,&quot;/images/rewards/reward.svg&quot;],&quot;text&quot;:[0,&quot;给我买杯咖啡&quot;],&quot;dialog_title&quot;:[0,&quot;赞赏支持，更有情怀&quot;],&quot;dialog_description&quot;:[0,&quot;感谢支持，交个朋友，多少随意&quot;],&quot;data&quot;:[1,[[0,{&quot;type&quot;:[0,&quot;微信&quot;],&quot;icon&quot;:[0,&quot;/images/rewards/wechat.svg&quot;],&quot;url&quot;:[0,&quot;https://blog.zwying.com/usr/uploads/sina/63adb5ebda126.jpg&quot;]}],[0,{&quot;type&quot;:[0,&quot;支付宝&quot;],&quot;icon&quot;:[0,&quot;/images/rewards/alipay.svg&quot;],&quot;url&quot;:[0,&quot;https://blog.zwying.com/usr/uploads/sina/63adb5ebd2df1.jpg&quot;]}],[0,{&quot;type&quot;:[0,&quot;QQ&quot;],&quot;icon&quot;:[0,&quot;/images/rewards/QQ.svg&quot;],&quot;url&quot;:[0,&quot;https://blog.zwying.com/usr/uploads/sina/63adb5ebe2ac9.jpg&quot;]}]]]}]}" ssr client="idle" opts="{&quot;name&quot;:&quot;Rewards&quot;,&quot;value&quot;:true}" await-children><button data-hk=s00000 class="btn gq gm"><!--$--><img data-hk=s00001 src="/images/rewards/reward.svg" class="dh cc" alt="打赏图标"><!--/--><!--$-->给我买杯咖啡<!--/--></button><!--astro:end--></astro-island> </div> <div class="flex fh gd fz mx"> <a type="button" href="/posts/codehighlight/" class="ec transition js lb kw flex fh fm hr iw io im gq"> <svg width="1em" height="1em" class="cc et di hl" data-icon="arrow-left-s-line">   <symbol id="ai:local:arrow-left-s-line" viewBox="0 0 24 24"><path fill="currentColor" d="m10.828 12 4.95 4.95-1.414 1.415L8 12l6.364-6.364 1.414 1.414z"/></symbol><use href="#ai:local:arrow-left-s-line"></use>  </svg> <span class="truncate">Soak主题代码高亮语法介绍</span> </a> <a type="button" href="/posts/markdown/" class="ec transition js lb kw flex fh fk hr iw io im gq"> <span class="truncate">你好，世界！第一篇文章纪念</span> <svg width="1em" height="1em" class="cc et di hl" data-icon="arrow-right-s-line">   <symbol id="ai:local:arrow-right-s-line" viewBox="0 0 24 24"><path fill="currentColor" d="m13.172 12-4.95-4.95 1.414-1.413L16 12l-6.364 6.364-1.414-1.415z"/></symbol><use href="#ai:local:arrow-right-s-line"></use>  </svg> </a> </div> </div> <div class="sidebar relative ej et"> <section class="card gq el fz fh gm border"> <div class="relative flex el du fj hj"> <img src="/images/bg.jpg" class="du el hn hk hj ge mz" alt="背景"> <div class="absolute ba flex ds eg fh fj gc gh gk"> <img class="dn gc" src="/images/avatar.svg" alt="赵阿卷"> </div> </div> <div class="cj cn flex fd fh"> <h4 class="iq im iw cm">赵阿卷</h4> <p class="ip"> 花有重开日，人无再少年 </p> </div> <div class="ib flex el fl"> <div class="flex fd fh fj"> <p class="iq iw im">7</p> <p class="ir jb">文章</p> </div> <div class="flex fd fh fj"> <p class="iq iw im">9</p> <p class="ir jb">标签</p> </div> <div class="flex fd fh fj"> <p class="iq iw im">4.8K</p> <p class="ir jb">文字</p> </div> </div> </section> <section class="card gb cg sticky aw gq border gm"> <div class="hw hz bt flex fh"> <div class="dh flex fh fj cl gc jg gw"> <svg width="1em" height="1em" data-icon="eye-2-line">   <symbol id="ai:local:eye-2-line" viewBox="0 0 24 24"><path fill="currentColor" d="M1.182 12C2.122 6.88 6.608 3 12 3s9.878 3.88 10.819 9c-.94 5.12-5.427 9-10.819 9s-9.878-3.88-10.818-9M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10m0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/></symbol><use href="#ai:local:eye-2-line"></use>  </svg> </div> <span>最近文章</span> </div>  <ul class="timeline bo br hw ih"> <li>  <div class="aj"> <div class="dc ke"> <div class="status gn ez"></div> <div class="status gn"></div> </div> </div> <div class="bn gb hz hw el kw transition"> <a href="/posts/using-mdx" class="block group"> <div class="flex fd"> <div class="ip cx">MDX语法的魅力</div> <div class="ir jf">2025年04月06日</div> </div> </a> </div> <hr> </li><li> <hr> <div class="aj"> <div aria-label="status" class="status go"></div> </div> <div class="bn gb hz hw el kw transition"> <a href="/posts/codehighlight" class="block group"> <div class="flex fd"> <div class="ip cx">Soak主题代码高亮语法介绍</div> <div class="ir jf">2024年08月18日</div> </div> </a> </div> <hr> </li><li> <hr> <div class="aj"> <div aria-label="status" class="status go"></div> </div> <div class="bn gb hz hw el kw transition"> <a href="/posts/first-post" class="block group"> <div class="flex fd"> <div class="ip cx">MarkDown文档格式测试</div> <div class="ir jf">2024年08月14日</div> </div> </a> </div> <hr> </li><li> <hr> <div class="aj"> <div aria-label="status" class="status go"></div> </div> <div class="bn gb hz hw el kw transition"> <a href="/posts/markdown" class="block group"> <div class="flex fd"> <div class="ip cx">你好，世界！第一篇文章纪念</div> <div class="ir jf">2023年10月01日</div> </div> </a> </div> <hr> </li><li> <hr> <div class="aj"> <div aria-label="status" class="status go"></div> </div> <div class="bn gb hz hw el kw transition"> <a href="/posts/video" class="block group"> <div class="flex fd"> <div class="ip cx">Include Video in the Posts</div> <div class="ir jf">2023年08月01日</div> </div> </a> </div>  </li> </ul> </section> </div> </div>  </main> <footer id="footer" class="id ik ft he mv mx"> <p class="ir"> <span>©&nbsp;2020 - 2025&nbsp;</span> <a class="jh jc mw" href="https://blog.zwying.com/">赵阿卷</a> <span>&nbsp;※&nbsp;采用&nbsp;</span> <a class="jh jc mw" href="https://blog.zwying.com" target="_blank">Soak</a> <span> &nbsp;独立部署构建</span> </p> </footer> </div> <script type="module">
+    import Pjax from "/libs/pjax.esm.min.js";
+
+    window.pjax = new Pjax({
+        selectors: [
+            'main', '[data-hero-box]'
+        ],
+    });
+
+    document.addEventListener('pjax:complete', () => {
+        document.getElementById('my-drawer').checked = false;
+        topbar.hide()
+    });
+    document.addEventListener('pjax:send', () => {
+        topbar.show()
+    });
+</script> <script>(function(){const scriptUrl = "/pagefind/pagefind.js";
+
+    (async function findInit() {
+        const pageFind = await import(scriptUrl)
+        await pageFind.options({
+            'excerptLength': 20
+        })
+        pageFind.init()
+        window.pagefind = pageFind
+        pageFind.search('')     // speed up the first search
+    })()
+})();</script> <script>(()=>{var a=(s,i,o)=>{let r=async()=>{await(await s())()},t=typeof i.value=="object"?i.value:void 0,c={rootMargin:t==null?void 0:t.rootMargin},n=new IntersectionObserver(e=>{for(let l of e)if(l.isIntersecting){n.disconnect(),r();break}},c);for(let e of o.children)n.observe(e)};(self.Astro||(self.Astro={})).visible=a;window.dispatchEvent(new Event("astro:visible"));})();</script><astro-island uid="ZPV3p3" data-solid-render-id="s1" component-url="/_astro/_astro-entry_solid-toast.B0DO6Coo.js" component-export="Toaster" renderer-url="/_astro/client.BOVNrbhR.js" props="{&quot;position&quot;:[0,&quot;top-center&quot;]}" ssr client="visible" opts="{&quot;name&quot;:&quot;Toaster&quot;,&quot;value&quot;:true}" await-children><div data-hk=s10000 style="position:fixed;z-index:9999;top:16px;bottom:16px;left:16px;right:16px;pointer-events:none"><style>.sldt-active{z-index:9999;}.sldt-active>*{pointer-events:auto;}</style><!--$--><!--/--></div><!--astro:end--></astro-island> <script src="/libs/topbar.min.js">
+</script> <script src="/libs/SmoothScroll.min.js"></script> </body> </html>
